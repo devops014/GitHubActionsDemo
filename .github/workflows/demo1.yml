@@ -1,0 +1,8 @@
+name: hello-world
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-lates
+    steps:
+      - name: my-step
+        run: echo "Hello World written by M Ahad!"
